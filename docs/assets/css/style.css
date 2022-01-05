@@ -1,0 +1,129 @@
+
+:root{
+    
+    --color-white:#fff;
+    --light-gray-1:#eee;
+    --ash-gray:#b2beb5;
+    --blue-gray:#7393b3;
+    --charcoal:#36454f;
+    --dark-gray:#a9a9a9;
+    --claucous:#6082b6;
+    --gray:#808080;
+    --gun-metal-gray:#818589;
+    --light-gray:#d3d3d3;
+    --pewter:#899499;
+    --platinium:#e5e4e2;
+    --sage-green:#8a9a5b;
+    --silver:#c0c0c0;
+    --slate-gray:#708090;
+    --smoke:#848884;
+    --steel-gray:#71797e;
+    --color-black:rgb(29, 29, 29);
+    --relaway:'Relaway', sans-serif;
+    --openSans:'Open Sans', sans-serif;
+}
+/*
+font-family:  'Relaway', sans-serif;
+*/
+html,body{
+    margin: 0;
+    overflow-x: hidden;
+    background-color: var(--white);
+    font-size: 16px;
+    font-family: var( --openSans);
+    color:var(--color-black);
+}
+*{
+    box-sizing: border-box;
+  }
+a{
+    text-decoration: none;
+}
+p {
+    margin: 0;
+    margin-bottom: 0.5rem;
+}
+div#img-div img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: var(--relaway);
+    margin: 0;
+    font-weight: 700;
+}
+h1{
+    font-size: 4rem;
+} 
+h2{
+    font-size: 3rem;
+}
+h3{
+    font-size: 2.5rem;
+}
+h4{
+    font-size: 2rem;
+}
+h5{
+    font-size: 1.5rem;
+}
+h6{
+    font-size: 1rem;
+}
+figcaption#img-caption {
+    text-align: center;
+    margin-bottom: 20px;
+}
+header {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    background: var(--gray);
+    color: var(--color-white);
+    padding: 15px;
+}
+
+footer {
+   
+    bottom: 0;
+    left: 0;
+    padding: 10px 15px;
+  background: var( --color-black);
+    width: 100%;
+    color: var(--color-white);
+    text-align: center;
+}
+footer a{
+   
+    font-weight: 600;
+    transition: 0.3s;
+}
+p.testCopyright {
+    margin: 0;
+    font-size: 1rem;
+}
+p.testCopyright a:hover{
+    color: var(--celadon-blue);
+}
+
+a.more {
+    font-size: 0.8rem;
+    color: var(--celadon-blue);
+    font-family:var(--relaway);
+    transition: 0.3s;
+}
+a.more:hover,a.more:active{
+    color: var( --powder-blue);
+}
+
+
+@media (max-width:767px) {
+   
+}
+
+  
+
+
+
